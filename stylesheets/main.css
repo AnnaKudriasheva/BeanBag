@@ -1,0 +1,41 @@
+/* line 5, ../sass/main.scss */
+.social-network {
+  width: 35px;
+  margin-top: 35px;
+  margin-right: 5px;
+}
+
+/* line 11, ../sass/main.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8b0406;
+}
+
+/* line 21, ../sass/main.scss */
+li {
+  float: left;
+  text-decoration: none;
+}
+
+/* line 26, ../sass/main.scss */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none !important;
+}
+
+/* line 34, ../sass/main.scss */
+li a:hover:not(.active) {
+  background-color: #dcb487;
+  color: white;
+}
+
+/* line 39, ../sass/main.scss */
+.active {
+  background-color: #dcb487;
+}
